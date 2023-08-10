@@ -1,0 +1,32 @@
+uuid: 1b4f089c-51f3-4da8-9040-0da9a8bd5fae
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.colors.body
+    - field.field.node.colors.field_bool
+    - node.type.colors
+  module:
+    - text
+    - user
+id: node.colors.teaser
+targetEntityType: node
+bundle: colors
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_bool: true

@@ -1,0 +1,23 @@
+uuid: 7c9386d0-4d9d-4540-86fa-5fbcb37df2b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bool
+    - node.type.colors
+id: node.colors.field_bool
+field_name: field_bool
+entity_type: node
+bundle: colors
+label: bool
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

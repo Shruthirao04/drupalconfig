@@ -1,0 +1,39 @@
+uuid: 5d3c5164-c38b-4e50-9fcf-61847efe2ac9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.colors.body
+    - field.field.node.colors.field_bool
+    - node.type.colors
+  module:
+    - text
+    - user
+id: node.colors.default
+targetEntityType: node
+bundle: colors
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_bool:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

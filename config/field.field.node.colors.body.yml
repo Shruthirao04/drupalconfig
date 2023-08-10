@@ -1,0 +1,23 @@
+uuid: 3cfc6562-fc3f-4655-a66c-29eb8894dde6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.colors
+  module:
+    - text
+id: node.colors.body
+field_name: body
+entity_type: node
+bundle: colors
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
