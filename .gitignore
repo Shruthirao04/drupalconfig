@@ -15,3 +15,4 @@ profiles/contrib
 
 # Ignore the vendor directory
 vendor
+/example.gitignore
