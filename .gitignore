@@ -1,8 +1,5 @@
 # Ignore web/sites/default/files directory
-sites/default/files
-
-# Ignore web/sites/default/settings.php file
-sites/default/settings.php
+sites/default
 
 # Ignore web/modules/contrib directory
 modules/contrib

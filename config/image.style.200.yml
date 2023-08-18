@@ -1,0 +1,15 @@
+uuid: 974dc11e-3332-4ec9-9bdd-239474e56c1e
+langcode: en
+status: true
+dependencies: {  }
+name: '200'
+label: 200-200
+effects:
+  85386f7b-c6b2-427d-85b5-e315753dc85e:
+    uuid: 85386f7b-c6b2-427d-85b5-e315753dc85e
+    id: image_crop
+    weight: 1
+    data:
+      width: 200
+      height: 200
+      anchor: center-center
